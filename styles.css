@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    letter-spacing: -.1rem;
+    margin-top: 4rem;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.top-texts p {
+    font-size: 14px;
+    width: 90%;
+}
+
+.top-texts {
+    margin-left: .2rem;
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+h6 {
+    text-transform: uppercase;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    transform: rotate(90deg) translateX(3rem) translateY(-4.2rem);
+    position: absolute;
+    width: 10rem;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: .8rem;
+}
+
+.bottom-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    padding: 1rem;
+    padding-left: .6rem;
+    margin-top: 3rem;
+    margin-right: .5rem;
+}
+
+.portrait-function {
+    display: flex;
+}
+
+.container:nth-child(even) {
+    margin-top: 3rem;
+}
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    color: #A9A9A9;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 6rem;
+    margin-bottom: 1.5rem;
+}
+
+footer a {
+    color: #A9A9A9;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1440px) {
+    body {
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 960px;
+    }
+
+    .top-texts {
+        display: flex;
+        justify-content: center;
+        margin-top: 7rem;
+    }
+
+    .top-texts * {
+        flex: 1;
+    }
+
+    .top-texts p {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    h2 {
+        margin: 0;
+        margin-bottom: .6rem;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .bottom-grid {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 3rem;
+        margin-top: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 3.5rem;
+    }
+
+    img {
+    width: 85%;
+    }
+
+    .container:nth-child(even) {
+        margin-top: 0;
+    }
+
+    .container:nth-child(2), .container:nth-child(5) {
+        margin-top: 6rem;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    h6 {
+        font-size: 12px;
+        transform: rotate(90deg) translateX(3rem) translateY(-10rem);
+    }
+
+
+}
