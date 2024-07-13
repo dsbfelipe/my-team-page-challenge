@@ -33,7 +33,10 @@ h2 {
 
 img {
     max-width: 100%;
-    
+}
+
+.container {
+    position: relative;
 }
 
 h6 {
@@ -86,7 +89,6 @@ footer a {
 
 @media only screen and (min-width: 1440px) {
     body {
-        overflow: hidden;
         margin-left: auto;
         margin-right: auto;
         max-width: 960px;
@@ -96,6 +98,7 @@ footer a {
         display: flex;
         justify-content: center;
         margin-top: 7rem;
+        padding-left: 3.5rem;
     }
 
     .top-texts * {
@@ -143,8 +146,7 @@ footer a {
 
     h6 {
         font-size: 12px;
-        transform: rotate(90deg) translateX(3rem) translateY(-10rem);
+        transform: rotate(90deg) translateX(4.7rem) translateY(-10rem);
+        margin: 0;
     }
-
-
 }
